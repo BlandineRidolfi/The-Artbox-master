@@ -17,11 +17,11 @@
     <?php include('oeuvres.php'); ?>
 
     <?php 
-        $id = isset($_GET['id']) ? $_GET['id'] : null; 
-
-        if ($id !== null && $id >= 0 && array_key_exists($id, $oeuvres)) : ?>
+    $id = isset($_GET['id']) && array_key_exists($_GET['id'], $oeuvres) ? $_GET['id'] : null; 
+    ?>
 
     <article id="detail-oeuvre">
+    <?php if ($id !== null) : ?>
         <div id="img-oeuvre">
             <img src="<?php echo $oeuvres[$id]['image']; ?>" alt="<?php echo $oeuvres[$id]['titre']; ?>">
         </div>
