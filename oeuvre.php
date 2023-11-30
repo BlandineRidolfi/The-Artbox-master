@@ -16,17 +16,20 @@
 
     <?php include('oeuvres.php'); ?>
 
-    <?php if (isset($_GET['id']) && $_GET['id'] > 0 && $_GET['id'] <= count($oeuvres)) : ?>
+    <?php 
+        $id = isset($_GET['id']) ? $_GET['id'] : null; 
+
+        if ($id !== null && $id >= 0 && array_key_exists($id, $oeuvres)) : ?>
 
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="<?php echo $oeuvres[$_GET['id'] - 1]['image']; ?>" alt="<?php echo $oeuvres[$_GET['id'] - 1]['titre']; ?>">
+            <img src="<?php echo $oeuvres[$id]['image']; ?>" alt="<?php echo $oeuvres[$id]['titre']; ?>">
         </div>
         <div id="contenu-oeuvre">
-            <h1><?php echo $oeuvres[$_GET['id'] - 1]['titre']; ?></h1>
-            <p class="description"><?php echo $oeuvres[$_GET['id'] - 1]['auteur']; ?></p>
+            <h1><?php echo $oeuvres[$id]['titre']; ?></h1>
+            <p class="description"><?php echo $oeuvres[$id]['auteur']; ?></p>
             <p class="description-complete">
-                <?php echo $oeuvres[$_GET['id'] - 1]['description']; ?>
+                <?php echo $oeuvres[$id]['description']; ?>
             </p>
         </div>
     </article>

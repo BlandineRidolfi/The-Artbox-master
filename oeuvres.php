@@ -4,7 +4,7 @@ $oeuvres = [
 
     //oeuvre 1
     [
-        'numero' => '1',
+        'numero' => '0',
         'image' => 'img/clark-van-der-beken.png',
         'titre' => 'Dodomu',
         'auteur' => 'Mia Tozerski',
@@ -14,7 +14,7 @@ $oeuvres = [
 
     //oeuvre 2
     [
-        'numero' => '2',
+        'numero' => '1',
         'image' => 'img/pawel-czerwinski-3.png',
         'titre' => 'Aashaaheen Baadal',
         'auteur' => 'Anaisha Devi',
@@ -24,7 +24,7 @@ $oeuvres = [
 
     //oeuvre 3
     [
-        'numero' => '3',
+        'numero' => '2',
         'image' => 'img/dan-cristian-padure.png',
         'titre' => 'Nightlife Traffic',
         'auteur' => 'Andrew Forsythe',
@@ -33,7 +33,7 @@ $oeuvres = [
 
     //oeuvre 4
     [
-        'numero' => '4',
+        'numero' => '3',
         'image' => 'img/steve-johnson-5.png',
         'titre' => 'Le refuge de l\'Havre',
         'auteur' => 'Simon Pelletier',
@@ -42,7 +42,7 @@ $oeuvres = [
 
     //oeuvre 5
     [
-        'numero' => '5',
+        'numero' => '4',
         'image' => 'img/steve-johnson.png',
         'titre' => 'Red Washover',
         'auteur' => 'Kit Van Der Borght',
@@ -51,7 +51,7 @@ $oeuvres = [
 
     //oeuvre 6
     [
-        'numero' => '6',
+        'numero' => '5',
         'image' => 'img/pawel-czerwinski.png',
         'titre' => 'Chromatics',
         'auteur' => 'Jean-Michel Delatronchette',
@@ -60,7 +60,7 @@ $oeuvres = [
 
     //oeuvre 7
     [
-        'numero' => '7',
+        'numero' => '6',
         'image' => 'img/jazmin-quaynor.png',
         'titre' => 'Digital Negative',
         'auteur' => 'Hamish McKee',
@@ -69,7 +69,7 @@ $oeuvres = [
 
      //oeuvre 8
      [
-        'numero' => '8',
+        'numero' => '7',
         'image' => 'img/steve-johnson-6.png',
         'titre' => 'Blast from the past',
         'auteur' => 'Juliette Baskerville',
@@ -78,7 +78,7 @@ $oeuvres = [
 
      //oeuvre 9
      [
-        'numero' => '9',
+        'numero' => '8',
         'image' => 'img/victor-grabarczyk.png',
         'titre' => 'Hurricane',
         'auteur' => 'Natalie Wellington',
@@ -87,7 +87,7 @@ $oeuvres = [
 
     //oeuvre 10
     [
-        'numero' => '10',
+        'numero' => '9',
         'image' => 'img/pawel-czerwinski-2.png',
         'titre' => 'La marée rouge',
         'auteur' => 'Martin Rodriguez',
@@ -96,7 +96,7 @@ $oeuvres = [
 
     //oeuvre 11
     [
-        'numero' => '11',
+        'numero' => '10',
         'image' => 'img/steve-johnson-2.png',
         'titre' => 'Asimilacion',
         'auteur' => 'Angel Sanchez-Fernandez',
@@ -105,7 +105,7 @@ $oeuvres = [
 
     //oeuvre 12
     [
-        'numero' => '12',
+        'numero' => '11',
         'image' => 'img/fly-d.png',
         'titre' => 'La Galaxia Gialla',
         'auteur' => 'Eduardo Tancredi',
@@ -114,7 +114,7 @@ $oeuvres = [
 
     //oeuvre 13
     [
-        'numero' => '13',
+        'numero' => '12',
         'image' => 'img/orfeas-green.png',
         'titre' => 'Puffy Amalgamate',
         'auteur' => 'Sandro De Blasi',
@@ -123,7 +123,7 @@ $oeuvres = [
 
      //oeuvre 14
      [
-        'numero' => '14',
+        'numero' => '13',
         'image' => 'img/steve-johnson-4.png',
         'titre' => 'Mirage',
         'auteur' => 'Stéphanie Kaiser',
@@ -132,7 +132,7 @@ $oeuvres = [
 
     //oeuvre 15
     [
-        'numero' => '15',
+        'numero' => '14',
         'image' => 'img/steve-johnson-3.png',
         'titre' => 'Blaue Gelbe Muster',
         'auteur' => 'Adelheid Von Schreiber',

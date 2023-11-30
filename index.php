@@ -13,10 +13,12 @@
 <!-- HEADER -->
 
     <?php include('header.php'); ?>
+
+    <?php include('oeuvres.php'); ?>
     
     <main>
         <div id="liste-oeuvres">
-            <?php include('oeuvres.php'); ?>
+            
 
             <?php foreach ($oeuvres as $oeuvre) : ?>
 
